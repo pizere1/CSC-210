@@ -11,9 +11,9 @@ your work, please indicate the status of each item
 
 Assignment Points:
 
-_____ 1 pt: Submission includes readme.txt
+__Yes___ 1 pt: Submission includes readme.txt
 
-_____ 1 pt: IndexAccess class includes Javadoc describing its purpose
+__Yes___ 1 pt: IndexAccess class includes Javadoc describing its purpose
 
 _____ 1 pt: Javadoc specifies assumptions about how IndexAccess object is created
 
@@ -35,4 +35,5 @@ _____ 1 pt: SequenceADT class and methods all have Javadoc describing their purp
 Kudos:
 
 _____ Implement code to test your IndexAccess interface
+
 
