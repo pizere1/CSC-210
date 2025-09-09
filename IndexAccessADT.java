@@ -1,6 +1,6 @@
 /**creating array interface
  * Creates an array with ability to store and write elements**/
-interface IndexAccessADT<T>{
+public interface IndexAccessADT<T>{
     /**Reading n elements of the array
      * Throws an exception if there are no more elements to read
      ***/
