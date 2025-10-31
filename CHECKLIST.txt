@@ -15,15 +15,15 @@ __Yes___ 1 pt: Submission includes readme.txt
 
 __Yes___ 1 pt: IndexAccess class includes Javadoc describing its purpose
 
-___Part__ 1 pt: Javadoc specifies assumptions about how IndexAccess object is created
+___Yes__ 1 pt: Javadoc specifies assumptions about how IndexAccess object is created
 
-___Part__ 1 pt: Correct call signatures for all the necessary IndexAccess methods
+___Yes__ 1 pt: Correct call signatures for all the necessary IndexAccess methods
 
 __YES___ 1 pt: Javadoc included for all IndexAccess methods describes what they do and any restrictions on their use
 
 __Yes___ 1 pt: Methods that might throw an exception are identified in Javadoc
 
-__NO___ 1 pt: Tests cover all IndexAccess methods
+__PARt___ 1 pt: Tests cover all IndexAccess methods
 
 __NO___ 1 pt: Tests check all exceptional cases
 
@@ -34,7 +34,8 @@ __Yes___ 1 pt: SequenceADT class and methods all have Javadoc describing their p
 
 Kudos:
 
-__No___ Implement code to test your IndexAccess interface
+__Part___ Implement code to test your IndexAccess interface
+
 
 
 
