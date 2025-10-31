@@ -1,23 +1,37 @@
-/**
- * An interface for implementing a sequence ot type a*/
-public interface SequencesADT<a> {
-/**
- * *Add element to sequence**/
-public void add(a val);
-/**
- * Returns the size of the sequence*/
-public int size();
-/**
- * Delete an element on a position
- * Throws an exception if it doesn't exist*/
-public void delete(a val);
-/**
- * Prints the elemnt on the specified index
- * Throws an exception if there's no such index*/
-public a get(int index);
+public interface SequenceADT<T> {
     /**
-     * Combines 2 sequences
-     * Throws exception if there's a missing sequence
+     * function to return the size of the sequence
+     * @return the current count of elements in the sequence or 0 if they're none
      */
-public a combine(a val, a valu);
+    public int size();
+
+    /**
+     * Method to add a specified value to the sequence
+     * @param value takes the value to add to the sequence
+     */
+    public void insert(T value);
+
+    /**
+     * Fubction to remove the value from the seqeunce
+     * @param value takes in the element
+     * @return the element after removing it form the sequence
+     * throws an exception if that value isn't there
+     */
+    public T remove(T value);
+
+    /**
+     * Function to append a whole sequence to the current sequence
+     * @param val takes in the sequence
+     * @return s the new ssequences
+     * throws an exception if they're of a different type
+     */
+    public T append(T val);
+
+    /**
+     * Function to divide the sequnces into subsequences
+     * @param val takes in the value to mark wheer the cut has to happen
+     * @return the desired subsequence of the new two or both
+     */
+    public T split(T val);
+
 }
